@@ -1,0 +1,93 @@
+{
+    "titulo": "Roteiro Semanal",
+    "nome": "Nome Genérico",
+    "tabela": [
+        {
+            "titulo": "Tabela Semanal",
+            "horarios": [
+                "08:00 - 10:00",
+                "10:00 - 12:00",
+                "13:00 - 15:00",
+                "15:00 - 17:00",
+                "18:00 - 20:00",
+                "20:00 - 22:00"
+            ],
+            "dias": [
+                {
+                    "dia": "Seg",
+                    "atividades": [
+                        "Atividade 1",
+                        "Atividade 2"
+                    ]
+                },
+                {
+                    "dia": "Ter",
+                    "atividades": [
+                        "Atividade 3"
+                    ]
+                },
+                {
+                    "dia": "Qua",
+                    "atividades": [
+                        "Atividade 1",
+                        "Atividade 2"
+                    ]
+                },
+                {
+                    "dia": "Qui",
+                    "atividades": [
+                        "Atividade 3"
+                    ]
+                },
+                {
+                    "dia": "Sex",
+                    "atividades": [
+                        "Atividade 3"
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Fins de Semana",
+            "horarios": [
+                "08:00 - 12:00",
+                "13:00 - 15:00",
+                "15:00 - 18:00",
+                "20:00 - 22:00"
+            ],
+            "dias": [
+                {
+                    "dia": "Sab",
+                    "atividades": [
+                        "Atividade 1",
+                        "Atividade 2"
+                    ]
+                },
+                {
+                    "dia": "Dom",
+                    "atividades": [
+                        "Atividade 3"
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Feriados",
+            "horarios": [
+                "08:00 - 12:00",
+                "13:00 - 15:00",
+                "15:00 - 18:00",
+                "20:00 - 22:00"
+            ],
+            "dias": [
+                {
+                    "dia": "Feriado",
+                    "atividades": [
+                        "Atividade 1",
+                        "Atividade 2"
+                    ]
+                }
+            ]
+        }
+    ]
+}
