@@ -1,0 +1,10 @@
+services:
+  app-roteiro:
+    build: .
+    container_name: roteiro-semanal
+    ports:
+      - "8083:3000"
+    volumes:
+      # O :Z é essencial no Fedora para permissões de SELinux
+      - /home/davi/roteiro_semanal/config:/app/config:Z
+    restart: always

@@ -1,4 +1,4 @@
-fetch('info.json')
+fetch('config/info.json')
 .then(response => response.json())
 .then(dados => {
   document.getElementById("titulo").textContent = dados.titulo;
